@@ -1,0 +1,73 @@
+<!---
+### Create a page according to the layout shown below
+
+![Box Model Exercise 6](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/box-model/ex-6.png)
+
+#### Problems for exercise 2 in the layout
+
+- Each parent container has width of 600px and border of 1px;
+- Each children box has width 180px and height 100px as well as margin of 10px;
+- Each child box which is having border has border-width 1px.
+- Note in the first container the boxes do not have any border.
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+--->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/styles.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="center">
+        <h1>The Box Model, Box-sizing & Box-shadow</h1>
+    </header>
+    <main>
+      <section>
+        <div class="center">Exercise1</div>
+        <div class="box-0 box-center">
+          <div class="box-1 box-center"></div>
+          <div>
+          <p class="p-1">Content</p>
+          <p class="p-2">Padding</p>
+          <p class="p-3">Border</p>
+          <p class="p-4">Margin</p>
+        </div>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h1 class="center">Exercise2</h1>
+          <h6 class="center">no border on these boxes.</h6>
+        </div>
+        <div class="box-2">
+          <span class="box-3">1</span>
+          <span class="box-3">2</span>
+          <span class="box-3">3</span>
+        </div>
+      </section>
+      <div>
+        <h6 class="center">1px border on these boxes.</h6>
+      </div>
+      <div class="box-4">
+        <span class="box-5">4</span>
+        <span class="box-5">5</span>
+        <span class="box-5">6</span>
+      </div>
+    </section>
+      <section> <div>
+        <h6 class="center">1px border on these boxed but they are in same line.</h6>
+      </div>
+      <div class="box-6">
+        <span class="box-7">1</span>
+        <span class="box-7">2</span>
+        <span class="box-7">3</span>
+      </div></section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
