@@ -1,0 +1,33 @@
+body {
+  width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+.menu a {
+  float: none;
+  position: relative;
+}
+.color-dark {
+  background-color: aliceblue;
+}
+
+.images {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.color-1 {
+  background-color: aquamarine;
+}
+.color-2 {
+  background-color: aquamarine;
+}
+.color-3 {
+  background-color: aquamarine;
+}
+.color-4 {
+  background-color: aqua;
+}
