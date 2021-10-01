@@ -1,0 +1,88 @@
+body {
+  line-height: 1.5;
+  padding-bottom: 200px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  padding: 32px 100px;
+}
+
+hr {
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 26px;
+  text-align: center;
+  margin: 32px 0;
+}
+
+/* How does text-align: center end up centering the inline block? */
+/* section {
+  text-align: center;
+} */
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #dafad3;
+  margin: 0 auto;
+  /* display: inline-block; */
+  border: 20px solid #add8e5;
+  outline: 5px solid black;
+  box-shadow: 0 0 0 30px #ed7f80;
+}
+.marker-container {
+  text-align: center;
+  margin-top: 40px;
+}
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: #dafad3;
+  display: inline-block;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+.padding {
+  background-color: #add8e5;
+}
+.margin {
+  background-color: #ed7f80;
+}
+.border {
+  background-color: black;
+}
+
+.marker {
+  margin: 0 8px;
+  display: inline-block;
+}
+p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.container {
+  width: 600px;
+  border: 1px solid gray;
+  margin: 24px auto;
+  font-size: 0;
+}
+.child-box {
+  width: 180px;
+  height: 100px;
+  margin: 10px;
+  background-color: gray;
+  display: inline-block;
+  font-size: 0;
+}
+.border {
+  border: 1px solid black;
+}
+.border-box {
+  box-sizing: border-box;
+}
